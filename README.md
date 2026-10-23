@@ -7,10 +7,18 @@ código dos passos 1 a 8 da aula.
 
 ## Rodar
 
-No NetBeans: `File › Open Project…` nos dois projetos, `Clean and Build`
-em cada um (primeira vez baixa as dependências do gRPC, precisa de
-internet), depois `Run` no `ServidorAtendimentoRPC` e `Run` no
-`ClienteAtendimentoRPC`.
+**Sem usar o Git**, baixando o ZIP:
+
+1. Nesta página do GitHub, botão verde **Code** → **Download ZIP**.
+2. Extraia o ZIP. Vai criar uma pasta chamada
+   `central-senhas-grpc-base-main` — **abra os projetos de dentro dela**,
+   não a pasta em si.
+3. No NetBeans: `File › Open Project…`, selecione a pasta
+   `ServidorAtendimentoRPC` (dentro da pasta extraída) e repita para
+   `ClienteAtendimentoRPC`.
+4. `Clean and Build` em cada um (primeira vez baixa as dependências do
+   gRPC, precisa de internet), depois `Run` no `ServidorAtendimentoRPC` e
+   `Run` no `ClienteAtendimentoRPC`.
 
 ## Onde cada grupo acrescenta o seu trabalho
 
